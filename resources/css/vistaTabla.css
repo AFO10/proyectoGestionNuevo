@@ -1,0 +1,76 @@
+/* Estilos generales para el QWidget principal */
+QWidget {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilo de la tabla */
+QTableWidget {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+QTableWidget::item {
+    padding: 10px;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+QTableWidget::item:selected {
+    background-color: #a9c4eb;
+    color: #333;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #2d72d9;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+QHeaderView::section {
+    background-color: #2d72d9;
+    color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #2d72d9;
+}
+
+/* Estilo para los botones */
+QPushButton {
+    background-color: #2d72d9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #5591e6;
+}
+
+QPushButton:pressed {
+    background-color: #1f5db5;
+}
+
+/* Botón "Cerrar" con un color diferente */
+QPushButton#close_button {
+    background-color: #d9534f;
+    color: white;
+}
+
+QPushButton#close_button:hover {
+    background-color: #c9302c;
+}
+
+QPushButton#close_button:pressed {
+    background-color: #ac2925;
+}

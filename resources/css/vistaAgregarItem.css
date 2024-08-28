@@ -1,0 +1,49 @@
+/* Estilos generales para la ventana del diálogo */
+QDialog {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Estilos para los widgets QLabel */
+QLabel {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los QLineEdit */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilos para los QPushButton */
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el layout QFormLayout */
+QFormLayout {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos adicionales para los botones en el layout */
+QFormLayout QPushButton {
+    margin-top: 20px;
+}
